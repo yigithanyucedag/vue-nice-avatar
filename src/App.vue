@@ -271,6 +271,7 @@ export default {
       this.nose = this.getRandom(Object.values(NOSE));
       this.glasses = this.getRandom(Object.values(GLASSES));
       this.shirt = this.getRandom(Object.values(SHIRT));
+      this.shirtColor = this.getRandom(Object.values(COLORS));
     },
     getRandom(list) {
       return list[Math.floor(Math.random() * list.length)];
